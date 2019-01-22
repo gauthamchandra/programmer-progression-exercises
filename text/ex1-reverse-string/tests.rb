@@ -14,7 +14,7 @@ def assert(input, expected_result)
   actual = reverse(input)
 
   if actual != expected_result
-    STDERR.puts("FAIL: Expected '#{actual}' to equal '#{expected_result}'")
+    STDERR.puts("FAIL: Expected '#{expected_result}' to equal '#{actual}'")
     exit(1)
   else
     STDOUT.puts('PASS')
